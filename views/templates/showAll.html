@@ -1,0 +1,10 @@
+<div class="container">
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-md-6" ng-repeat="thing in things">
+				<h3>Movie: <a href="/views/#/showOne?t={{thing.Title}}">{{thing.Title}}</a></h3>
+				<p>Year: {{thing.Year}}</p>
+			</div>
+		</div>
+	</div>
+</div>
